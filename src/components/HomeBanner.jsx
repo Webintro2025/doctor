@@ -1,11 +1,27 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 
-const images = ['/banner1.jpg',];
+const desktopImages = ['/banner1.jpg' , '/banner2.jpg'];
+const mobileImages = ['/banner1M.jpg','/banner2M.jpg'];
 
 const HomeBanner = () => {
   const [current, setCurrent] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
   const timeoutRef = useRef(null);
+
+  // Check if screen is mobile/tablet
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 768); // md breakpoint for better mobile detection
+    };
+    
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
+
+  const images = isMobile ? mobileImages : desktopImages;
 
   const nextSlide = () => setCurrent((prev) => (prev + 1) % images.length);
   const prevSlide = () => setCurrent((prev) => (prev - 1 + images.length) % images.length);
@@ -16,7 +32,7 @@ const HomeBanner = () => {
   }, [current]);
 
   return (
-  <div className="w-full relative overflow-hidden h-[180px] sm:h-[260px] md:h-[400px] lg:h-[550px] bg-gray-100 border border-blue-300">
+  <div className="w-full relative overflow-hidden h-[250px] sm:h-[320px] md:h-[400px] lg:h-[550px] bg-gray-100 border border-blue-300">
       {images.map((img, idx) => (
         <img
           key={img}
