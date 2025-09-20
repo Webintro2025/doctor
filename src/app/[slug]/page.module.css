@@ -1,0 +1,35 @@
+.serviceContainer {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.imageSection {
+  flex: 0 0 auto;
+  min-width: 500px;
+}
+
+.contentSection {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .serviceContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .imageSection {
+    min-width: auto;
+    width: 100%;
+  }
+  
+  .contentSection {
+    min-width: auto;
+  }
+}
