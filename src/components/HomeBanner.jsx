@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 
-const images = ['/banner.jpg',];
+const images = ['/banner1.jpg',];
 
 const HomeBanner = () => {
   const [current, setCurrent] = useState(0);
