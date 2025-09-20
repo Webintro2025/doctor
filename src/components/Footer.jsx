@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-2 animate-fadein">
           <i className="fas fa-id-card" style={{color: 'black'}}></i>
-          <span>GST- 3BHOPT0049J1Z5</span>
+          <span>GST- 07AAOFT1902C1ZG</span>
         </div>
         <div className="flex items-center gap-2 animate-fadein">
           <i className="fas fa-phone-alt" style={{color: 'black'}}></i>
