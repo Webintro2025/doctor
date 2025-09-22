@@ -8,6 +8,8 @@ import WhatWeDo from "@/components/WhatWeDo";
 import Count from "@/components/Count";
 import Curve from "@/components/Curve";
 import Gallery from "@/components/Gallery";
+import BestHospitals from "@/components/BestHospitals";
+import BestDoctors from "@/components/BestDoctors";
 
 
 
@@ -16,7 +18,8 @@ export default function Home() {
    <>
    <HomeBanner />
    <About/>
-
+   <BestHospitals />
+   <BestDoctors />
    <Gallery />
 <Curve/>
 <Slides/>
