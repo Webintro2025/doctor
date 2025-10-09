@@ -20,7 +20,7 @@ const Choose = () => {
         <div className="text-center space-y-4 mb-8">
           <p className="text-black text-lg md:text-xl font-semibold">✨ With Doctor Hand, you don't just get treatment—you get a partner who truly cares for your health, comfort, and peace of mind.</p>
           <div className="space-y-2 text-black text-base md:text-lg">
-            <p>📍 GST No: ST-07AAOFT1902C1ZG</p>
+        
             <p>📞 Call / WhatsApp: +91 7899294918</p>
             <p className="font-semibold">🌐 Doctor Hand – Your Trusted Partner in Medical Tourism</p>
           </div>

@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-1 sm:space-x-2 hidden lg:flex">
             <i className="fas fa-home"></i>
             <span className="transition-all duration-300 text-black drop-shadow-md  cursor-pointer">
-              GST- 07AAOFT1902C1ZG
+              
             </span>
           </div>
           {/* Show only one number and one email on mobile, both on large screens */}

@@ -7,7 +7,7 @@ const About = () => {
             {/* About1: Image left, text right */}
             <div className="px-4 py-6 flex flex-col md:flex-row items-center gap-10" style={{ background: 'rgba(121, 193, 190, 0.1)', borderRadius: '1rem' }}>
               <div className="md:w-1/2 w-full flex justify-center">
-                  <img src="/Alternative & Wellness.jpg" alt="Doctors Hand - About1" className="rounded-2xl shadow-lg w-full max-w-xs object-cover hover:scale-105 transition-transform duration-300" />
+                  <img src="/Alternative and Wellness.jpg" alt="Doctors Hand - About1" className="rounded-2xl shadow-lg w-full max-w-xs object-cover hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="md:w-1/2 w-full">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-[#23286b] mb-4 tracking-wide">About Us</h2>
@@ -17,7 +17,7 @@ const About = () => {
             {/* About2: Text left, image right */}
             <div className="flex flex-col md:flex-row-reverse items-center px-10 py-6 gap-8">
               <div className="md:w-1/2 w-full flex justify-center">
-                  <img src="/Financial & Legal Assistance.jpg" alt="Doctors Hand - About2" className="rounded-2xl shadow-lg w-full max-w-xs object-cover hover:scale-105 transition-transform duration-300" />
+                  <img src="/Financial and Legal Assistance.jpg" alt="Doctors Hand - About2" className="rounded-2xl shadow-lg w-full max-w-xs object-cover hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="md:w-1/2 w-full">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-[#23286b] mb-4 tracking-wide">Our Services</h2>
@@ -27,7 +27,7 @@ const About = () => {
             {/* About3: Image left, text right */}
             <div className="w-full flex flex-col md:flex-row items-center px-4 py-6 gap-10" style={{ background: 'rgba(118, 178, 96, 0.1)', borderRadius: '1rem' }}>
               <div className="md:w-1/2 w-full flex justify-center">
-                  <img src="/Orthopedics & Spine.jpg" alt="Doctors Hand - About3" className="rounded-2xl shadow-lg w-full max-w-xs object-cover hover:scale-105 transition-transform duration-300" />
+                  <img src="/Orthopedics and Spine.jpg" alt="Doctors Hand - About3" className="rounded-2xl shadow-lg w-full max-w-xs object-cover hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="md:w-1/2 w-full">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-[#23286b] mb-4 tracking-wide">Our Promise</h2>

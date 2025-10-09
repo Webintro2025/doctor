@@ -150,7 +150,7 @@ const Curve = () => {
             alt="Medical equipment and hospital furniture"
             className="object-contain"
             height={500}
-            src="/Travel & Logistics Support.jpeg"
+            src="/Travel and Logistics Support.jpeg"
             width={600}
           />
         </motion.div>

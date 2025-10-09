@@ -20,7 +20,7 @@ const serviceData = {
       "Accommodation: Hotels, serviced apartments, hospital guesthouses",
       "Local transport: Chauffeur-driven cars, ambulance service if required"
     ],
-    image: "/Travel & Logistics Support.jpeg"
+    image: "/Travel and Logistics Support.jpeg"
   },
   administrativeCoordination: {
     title: "Administrative Coordination",
@@ -42,7 +42,7 @@ const serviceData = {
       "Nursing and attendant support (outside hospital if needed)",
       "Companion care services for family members"
     ],
-    image: "/Patient & Family Support.jpg"
+    image: "/Patient and Family Support.jpg"
   },
   tourismAndWellness: {
     title: "Tourism & Wellness Add-Ons",
@@ -52,7 +52,7 @@ const serviceData = {
       "Pre/post-treatment relaxation retreats",
       "Spa & holistic wellness programs"
     ],
-    image: "/Tourism & Wellness Add-Ons.jpg"
+    image: "/Tourism and Wellness AddOns.jpg"
   },
   financialAndLegal: {
     title: "Financial & Legal Assistance",
@@ -62,7 +62,7 @@ const serviceData = {
       "Assistance with legal documents, medical records, discharge summaries",
       "Flexible payment options & installment plans"
     ],
-    image: "/Financial & Legal Assistance.jpg"
+    image: "/Financial and Legal Assistance.jpg"
   },
 
   // --- Specialties ---
@@ -78,7 +78,7 @@ const serviceData = {
     image: "/Cardiology (Heart Care).jpg"
   },
   orthopedics: {
-    title: "Orthopedics & Spine",
+    title: "Orthopedics and Spine",
     services: [
       "Knee Replacement (Total / Partial)",
       "Hip Replacement",
@@ -87,10 +87,10 @@ const serviceData = {
       "Arthroscopy (Knee, Shoulder, Hip)",
       "Sports Injury Treatments"
     ],
-    image: "/Orthopedics & Spine.jpg"
+    image: "/Orthopedics and Spine.jpg"
   },
   neurology: {
-    title: "Neurology & Neurosurgery",
+    title: "Neurology and Neurosurgery",
     services: [
       "Brain Tumor Surgery",
       "Stroke Management & Rehabilitation",
@@ -99,7 +99,7 @@ const serviceData = {
       "Spinal Cord Surgery",
       "Parkinson’s Disease Treatment"
     ],
-    image: "/Neurology & Neurosurgery.jpg"
+    image: "/Neurology and Neurosurgery.jpg"
   },
   oncology: {
     title: "Oncology (Cancer Care)",
@@ -113,7 +113,7 @@ const serviceData = {
     image: "/Oncology (Cancer Care).jpg"
   },
   fertility: {
-    title: "Fertility & Reproductive Medicine",
+    title: "Fertility and Reproductive Medicine",
     services: [
       "IVF (In-Vitro Fertilization)",
       "ICSI, IUI, Egg/Sperm Donation",
@@ -121,7 +121,7 @@ const serviceData = {
       "Male & Female Infertility Treatments",
       "Gynecology Surgery (Fibroids, Endometriosis)"
     ],
-    image: "/Fertility & Reproductive Medicine.jpg"
+    image: "/Fertility and Reproductive Medicine.jpg"
   },
   dental: {
     title: "Dental Treatments",
@@ -136,7 +136,7 @@ const serviceData = {
     image: "/Dental Treatments.jpg"
   },
   cosmetic: {
-    title: "Cosmetic & Plastic Surgery",
+    title: "Cosmetic and Plastic Surgery",
     services: [
       "Liposuction & Tummy Tuck",
       "Breast Augmentation / Reduction / Lift",
@@ -145,17 +145,17 @@ const serviceData = {
       "Hair Transplant",
       "Reconstructive Surgery (Burn, Trauma, Cleft Lip/Palate)"
     ],
-    image: "/Cosmetic & Plastic Surgery.jpg"
+    image: "/Cosmetic and Plastic Surgery.jpg"
   },
   generalSurgery: {
-    title: "General & Minimally Invasive Surgery",
+    title: "General and Minimally Invasive Surgery",
     services: [
       "Gallbladder, Appendix & Hernia Surgery",
       "Bariatric (Weight Loss) Surgery – Gastric Bypass, Sleeve Gastrectomy",
       "Laparoscopic & Robotic Surgeries",
       "Liver & Kidney Transplants"
     ],
-    image: "/General & Minimally Invasive Surgery.jpg"
+    image: "/General and Minimally Invasive Surgery.jpg"
   },
   ophthalmology: {
     title: "Ophthalmology (Eye Care)",
@@ -169,27 +169,27 @@ const serviceData = {
     image: "/Ophthalmology (Eye Care).jpg"
   },
   ent: {
-    title: "ENT (Ear, Nose & Throat)",
+    title: "ENT (Ear, Nose and Throat)",
     services: [
       "Cochlear Implant",
       "Sinus Surgery",
       "Tonsillectomy & Adenoidectomy",
       "Voice & Throat Surgery"
     ],
-    image: "/ENT (Ear, Nose & Throat).jpg"
+    image: "/ENT (Ear, Nose and Throat).jpg"
   },
   pediatrics: {
-    title: "Pediatrics & Pediatric Surgery",
+    title: "Pediatrics and Pediatric Surgery",
     services: [
       "Congenital Heart Surgery",
       "Pediatric Orthopedics",
       "Neonatal Intensive Care",
       "Pediatric Cancer Treatments"
     ],
-    image: "/Pediatrics & Pediatric Surgery.jpg"
+    image: "/Pediatrics and Pediatric Surgery.jpg"
   },
   alternative: {
-    title: "Alternative & Wellness",
+    title: "Alternative and Wellness",
     services: [
       "Ayurveda & Panchakarma",
       "Yoga & Meditation Retreats",
@@ -197,7 +197,7 @@ const serviceData = {
       "Physiotherapy & Rehabilitation",
       "Spa & Wellness Programs"
     ],
-    image: "/Alternative & Wellness.jpg"
+    image: "/Alternative and Wellness.jpg"
   }
 };
 

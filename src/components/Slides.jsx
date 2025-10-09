@@ -4,23 +4,23 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
   { src: '/Comprehensive Medical Care.jpg', title: 'Comprehensive Medical Care' },
-  { src: '/Travel & Logistics Support.jpeg', title: 'Travel & Logistics Support' },
+  { src: '/Travel and Logistics Support.jpeg', title: 'Travel and Logistics Support' },
   { src: '/Administrative Coordination.jpg', title: 'Administrative Coordination' },
-  { src: '/Patient & Family Support.jpg', title: 'Patient & Family Support' },
-  { src: '/Tourism & Wellness Add-Ons.jpg', title: 'Tourism & Wellness Add-Ons' },
-  { src: '/Financial & Legal Assistance.jpg', title: 'Financial & Legal Assistance' },
+  { src: '/Patient and Family Support.jpg', title: 'Patient and Family Support' },
+  { src: '/Tourism and Wellness AddOns.jpg', title: 'Tourism and Wellness Add-Ons' },
+  { src: '/Financial and Legal Assistance.jpg', title: 'Financial and Legal Assistance' },
   { src: '/Cardiology (Heart Care).jpg', title: 'Cardiology (Heart Care)' },
-  { src: '/Orthopedics & Spine.jpg', title: 'Orthopedics & Spine' },
-  { src: '/Neurology & Neurosurgery.jpg', title: 'Neurology & Neurosurgery' },
+  { src: '/Orthopedics and Spine.jpg', title: 'Orthopedics and Spine' },
+  { src: '/Neurology and Neurosurgery.jpg', title: 'Neurology and Neurosurgery' },
   { src: '/Oncology (Cancer Care).jpg', title: 'Oncology (Cancer Care)' },
-  { src: '/Fertility & Reproductive Medicine.jpg', title: 'Fertility & Reproductive Medicine' },
+  { src: '/Fertility and Reproductive Medicine.jpg', title: 'Fertility and Reproductive Medicine' },
   { src: '/Dental Treatments.jpg', title: 'Dental Treatments' },
-  { src: '/Cosmetic & Plastic Surgery.jpg', title: 'Cosmetic & Plastic Surgery' },
-  { src: '/General & Minimally Invasive Surgery.jpg', title: 'General & Minimally Invasive Surgery' },
+  { src: '/Cosmetic and Plastic Surgery.jpg', title: 'Cosmetic and Plastic Surgery' },
+  { src: '/General and Minimally Invasive Surgery.jpg', title: 'General and Minimally Invasive Surgery' },
   { src: '/Ophthalmology (Eye Care).jpg', title: 'Ophthalmology (Eye Care)' },
-  { src: '/ENT (Ear, Nose & Throat).jpg', title: 'ENT (Ear, Nose & Throat)' },
-  { src: '/Pediatrics & Pediatric Surgery.jpg', title: 'Pediatrics & Pediatric Surgery' },
-  { src: '/Alternative & Wellness.jpg', title: 'Alternative & Wellness' }
+  { src: '/ENT (Ear, Nose and Throat).jpg', title: 'ENT (Ear, Nose and Throat)' },
+  { src: '/Pediatrics and Pediatric Surgery.jpg', title: 'Pediatrics and Pediatric Surgery' },
+  { src: '/Alternative and Wellness.jpg', title: 'Alternative and Wellness' }
 ];
 
 const Slides = () => {

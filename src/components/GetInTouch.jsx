@@ -24,19 +24,7 @@ const GetInTouch = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-3 sm:gap-4 group">
-              <span className="bg-[#79C1BE] text-[#76B260] rounded-full p-2 sm:p-3 text-base sm:text-xl transition-transform duration-300 group-hover:scale-110 animate-pulse">
-                <i className="fas fa-id-card"></i>
-              </span>
-              <div>
-                <div className="text-black font-semibold text-xs sm:text-sm">
-                  GST Number
-                </div>
-                <div className="text-black font-bold text-sm sm:text-base md:text-lg">
-                  3BHOPT0049J1Z5
-                </div>
-              </div>
-            </div>
+      
             <div className="flex items-center gap-3 sm:gap-4 group">
               <span className="bg-[#76B260] text-[#79C1BE] rounded-full p-2 sm:p-3 text-base sm:text-xl transition-transform duration-300 group-hover:scale-110 animate-bounce">
                 <i className="fas fa-phone-alt"></i>

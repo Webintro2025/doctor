@@ -4,76 +4,300 @@ import React from 'react';
 const BestHospitals = () => {
   const hospitals = [
     {
-      name: "All India Institute of Medical Sciences (AIIMS)",
-      location: "New Delhi",
-      image: "/hospitals/aiims.jpg",
-      specialties: ["Cardiology", "Neurosurgery", "Oncology", "Orthopedics"]
+      name: "Medanta – The Medicity, Gurgaon",
+      location: "CH Baktawar Singh Road, Near Rajiv Chowk, Sector 38, Gurgaon, Haryana 122001",
+      image: "/mehdanta.png",
+      doctors: [
+        "Dr. Naresh Trehan — Cardiothoracic & Vascular Surgery",
+        "Dr. Ashok Rajgopal — Orthopaedics & Joint Replacement",
+        "Dr. Arvinder Singh Soin — Liver Transplant & Hepatobiliary Surgery"
+      ]
     },
     {
-      name: "Fortis Healthcare",
-      location: "Multiple Locations - Delhi NCR",
-      image: "/hospitals/fortis.jpg",
-      specialties: ["Heart Surgery", "Transplants", "Cancer Care", "Emergency"]
+      name: "Fortis Memorial Research Institute (FMRI), Gurgaon",
+      location: "Sector 44, Opposite HUDA City Centre, Gurgaon, Haryana 122002",
+      image: "/Fortis.png",
+      doctors: [
+        "Dr. Vinod Raina — Medical Oncology",
+        "Dr. Nikhil Kumar — Interventional Cardiology",
+        "Dr. Rahul Gupta — Neurosurgery"
+      ]
     },
     {
-      name: "Max Healthcare",
-      location: "Saket, Gurgaon, Noida",
-      image: "/hospitals/max.jpg",
-      specialties: ["Minimal Invasive Surgery", "Robotic Surgery", "IVF", "Dental"]
+      name: "Indraprastha Apollo Hospital, New Delhi",
+      location: "Sarita Vihar, Mathura Road, New Delhi 110076",
+      image: "/Indra.png",
+      doctors: [
+        "Dr. Anupam Sibal — Pediatrics & Hepatology",
+        "Dr. A. S. Soin — Liver Transplant Surgery",
+        "Dr. Richa Chaturvedi — Endocrinology"
+      ]
     },
     {
-      name: "Apollo Hospitals",
-      location: "Delhi, Noida",
-      image: "/hospitals/apollo.jpg",
-      specialties: ["Multi-organ Transplant", "Pediatric Surgery", "Neurology", "Orthopedics"]
+      name: "Max Super Speciality Hospital, Saket, New Delhi",
+      location: "Press Enclave Road, Saket, New Delhi 110017",
+      image: "/Max.png  ",
+      doctors: [
+        "Dr. Balbir Singh — Cardiology",
+        "Dr. Harit Chaturvedi — Surgical Oncology",
+        "Dr. Dinesh Khullar — Nephrology"
+      ]
     },
     {
-      name: "Medanta - The Medicity",
-      location: "Gurgaon",
-      image: "/hospitals/medanta.jpg",
-      specialties: ["Heart Surgery", "Liver Transplant", "Robotic Surgery", "Cancer Care"]
+      name: "BLK-Max Super Speciality Hospital, New Delhi",
+      location: "Pusa Road, Rajendra Place, New Delhi 110005",
+      image: "/BLK.png",
+      doctors: [
+        "Dr. Man Mohan Mehndiratta — Neurology",
+        "Dr. Ajay Kumar — Gastroenterology",
+        "Dr. Deepak Chaudhary — Orthopaedics"
+      ]
     },
     {
-      name: "BLK-Max Super Speciality Hospital",
-      location: "Rajinder Nagar, Delhi",
-      image: "/hospitals/blk.jpg",
-      specialties: ["Bone Marrow Transplant", "Liver Transplant", "Heart Surgery", "Neurosurgery"]
+      name: "Sir Ganga Ram Hospital, New Delhi",
+      location: "Rajinder Nagar, New Delhi 110060",
+      image: "/ganga.png",
+      doctors: [
+        "Dr. D. S. Rana — Nephrology",
+        "Dr. Arvind Kumar — Chest & Robotic Surgery",
+        "Dr. Sudhir Chadha — Urology"
+      ]
     },
     {
-      name: "Sir Ganga Ram Hospital",
-      location: "Rajinder Nagar, Delhi",
-      image: "/hospitals/gangaram.jpg",
-      specialties: ["Kidney Transplant", "Gastroenterology", "Cardiology", "Oncology"]
+      name: "Artemis Hospital, Gurgaon",
+      location: "Sector 51, Gurgaon, Haryana 122001",
+      image: "/artemis.png",
+      doctors: [
+        "Dr. I. P. S. Oberoi — Orthopaedics",
+        "Dr. Hari Goyal — Medical Oncology",
+        "Dr. Vipul Nanda — Plastic Surgery"
+      ]
     },
     {
-      name: "Artemis Hospital",
-      location: "Gurgaon",
-      image: "/hospitals/artemis.jpg",
-      specialties: ["Cancer Care", "Heart Surgery", "Neurosurgery", "Joint Replacement"]
+      name: "Fortis Escorts Heart Institute, Okhla, New Delhi",
+      location: "Okhla Road, New Friends Colony, New Delhi 110025",
+      image: "/okhala.png",
+      doctors: [
+        "Dr. Ashok Seth — Interventional Cardiology",
+        "Dr. T. S. Kler — Cardiology",
+        "Dr. Sandeep Attawar — Cardiac Surgery"
+      ]
     },
     {
-      name: "Jaypee Hospital",
-      location: "Noida",
-      image: "/hospitals/jaypee.jpg",
-      specialties: ["Cardiology", "Oncology", "Neurology", "Orthopedics"]
+      name: "Venkateshwar Hospital, Dwarka, New Delhi",
+      location: "Sector 18A, Dwarka, New Delhi 110075",
+      image: "/venki.png",
+      doctors: [
+        "Dr. A. K. Singhal — Cardiology",
+        "Dr. Pradeep Jain — Surgical Gastroenterology",
+        "Dr. R. S. Mishra — Neurosurgery"
+      ]
     },
     {
-      name: "Manipal Hospital",
-      location: "Dwarka, Delhi",
-      image: "/hospitals/manipal.jpg",
-      specialties: ["Multi-specialty", "Emergency Care", "Pediatrics", "Women's Health"]
+      name: "Primus Super Speciality Hospital, Chanakyapuri, New Delhi",
+      location: "Chandragupta Marg, Chanakyapuri, New Delhi 110021",
+      image: "/prime.png",
+      doctors: [
+        "Dr. Surya Bhan — Orthopaedics",
+        "Dr. A. K. Banerji — Neurosurgery",
+        "Dr. Sushma Bhardwaj — Gynecology"
+      ]
     },
     {
-      name: "Indian Spinal Injuries Centre",
-      location: "Vasant Kunj, Delhi",
-      image: "/hospitals/isic.jpg",
-      specialties: ["Spinal Surgery", "Rehabilitation", "Neurosurgery", "Orthopedics"]
+      name: "CK Birla Hospital, Gurgaon",
+      location: "Sector 51, Gurgaon, Haryana 122018",
+      image: "/ck.png",
+      doctors: [
+        "Dr. Rohan Sinha — Orthopaedics",
+        "Dr. Aruna Kalra — Obstetrics & Gynecology",
+        "Dr. Sumit Gupta — Pediatrics"
+      ]
     },
     {
-      name: "Primus Super Speciality Hospital",
-      location: "Chanakyapuri, Delhi",
-      image: "/hospitals/primus.jpg",
-      specialties: ["Bariatric Surgery", "Joint Replacement", "Cardiology", "Oncology"]
+      name: "Dharamshila Narayana Superspeciality Hospital, Delhi",
+      location: "Dharamshila Marg, Vasundhara Enclave, New Delhi 110096",
+      image: "/dharm.png",
+      doctors: [
+        "Dr. Anshuman Kumar — Surgical Oncology",
+        "Dr. S. K. Gupta — Radiation Oncology",
+        "Dr. V. P. Singh — Medical Oncology"
+      ]
+    },
+    {
+      name: "Max Smart Super Speciality Hospital, Saket",
+      location: "Press Enclave Marg, Saket District Centre, New Delhi 110017",
+      image: "/Max.png",
+      doctors: [
+        "Dr. Viveka Kumar — Interventional Cardiology",
+        "Dr. Bipin Walia — Neurosurgery",
+        "Dr. Anupam Bhargava — Urology"
+      ]
+    },
+    {
+      name: "Batra Hospital & Medical Research Centre, Tughlakabad, New Delhi",
+      location: "1, Tughlakabad Institutional Area, Mehrauli-Badarpur Road, New Delhi 110062",
+      image: "/batra.png",
+      doctors: [
+        "Dr. Sanjay Sachdeva — ENT Surgery",
+        "Dr. Arvind Gupta — Cardiology",
+        "Dr. Alok Gupta — Oncology"
+      ]
+    },
+    {
+      name: "Metro Heart Institute, Faridabad",
+      location: "Sector 16A, Faridabad, Haryana 121002",
+      image: "/metro.png",
+      doctors: [
+        "Dr. S. S. Bansal — Cardiology",
+        "Dr. Vinay Kumar Bahl — Cardiac Surgery",
+        "Dr. Anil Kumar — Internal Medicine"
+      ]
+    },
+    {
+      name: "Asian Institute of Medical Sciences, Faridabad",
+      location: "Badkal Flyover Road, Sector 21A, Faridabad 121001",
+      image: "/asian.png",
+      doctors: [
+        "Dr. Ashok Seth — Cardiology (Visiting)",
+        "Dr. A. K. Jain — General Surgery",
+        "Dr. Harsh Vardhan — Oncology"
+      ]
+    },
+    {
+      name: "Fortis Hospital, Noida",
+      location: "Sector 62, Noida, Uttar Pradesh 201301",
+      image: "/noida.png",
+      doctors: [
+        "Dr. Rajeev Agarwal — Surgical Oncology",
+        "Dr. Vinay Aggarwal — Cardiology",
+        "Dr. Nikhil Agarwal — Orthopaedics"
+      ]
+    },
+    {
+      name: "Kailash Hospital, Noida",
+      location: "H-33, Sector 27, Noida, Uttar Pradesh 201301",
+      image: "/kailash.png",
+      doctors: [
+        "Dr. P. K. Gupta — Cardiology",
+        "Dr. Shubhra Goyal — Obstetrics & Gynecology",
+        "Dr. Manoj Kumar — Neurology"
+      ]
+    },
+    {
+      name: "Yatharth Super Speciality Hospital, Greater Noida",
+      location: "Plot No. 32, Knowledge Park III, Greater Noida, Uttar Pradesh 201306",
+      image: "/ya.png",
+      doctors: [
+        "Dr. Anand Sharma — Cardiology",
+        "Dr. Sanjeev Singh — Neurosurgery",
+        "Dr. Piyush Jain — Orthopaedics"
+      ]
+    },
+    {
+      name: "Amrita Hospital, Faridabad",
+      location: "Mata Amritanandamayi Marg, Sector 88, Faridabad 121002",
+      image: "/am.png",
+      doctors: []
+    },
+    {
+      name: "Paras Hospitals, Gurgaon",
+      location: "C-1, Sushant Lok Phase I, Sector 43, Gurgaon, Haryana 122002",
+      image: "/paras.png",
+      doctors: [
+        "Dr. (Lt. Gen.) Ved Chaturvedi — Rheumatology",
+        "Dr. Manish Sharma — Orthopaedics",
+        "Dr. Vivek Logani — Joint Replacement Surgery"
+      ]
+    },
+    {
+      name: "Sharda Hospital, Greater Noida",
+      location: "Plot No. 32-34, Knowledge Park III, Greater Noida, Uttar Pradesh 201310",
+      image: "/sh.png",
+      doctors: [
+        "Dr. Neeraj Mahajan — General Surgery",
+        "Dr. Rahul Bhargava — Hematology",
+        "Dr. Alok Sharma — Orthopaedics"
+      ]
+    },
+    {
+      name: "Jaipur Golden Hospital, Rohini, Delhi",
+      location: "2, Institutional Area, Sector 3, Rohini, New Delhi 110085",
+      image: "/ja.png",
+      doctors: [
+        "Dr. Anil Kumar Kansal — Neurosurgery",
+        "Dr. Deepak Goel — Orthopaedics",
+        "Dr. S. C. L. Gupta — General Medicine"
+      ]
+    },
+    {
+      name: "Sri Balaji Action Medical Institute, Paschim Vihar, Delhi",
+      location: "FC-34, A-4, Paschim Vihar, New Delhi 110063",
+      image: "/shr.png",
+      doctors: [
+        "Dr. R. C. Dalela — Urology",
+        "Dr. K. S. Bhargava — Internal Medicine",
+        "Dr. Rajiv Anand — Neurology"
+      ]
+    },
+    {
+      name: "Moolchand Medcity, Lajpat Nagar, Delhi",
+      location: "Lajpat Nagar III, Near Moolchand Metro Station, New Delhi 110024",
+      image: "/mc.png",
+      doctors: [
+        "Dr. A. K. Banerji — Neurosurgery",
+        "Dr. Jyoti Bindal — Obstetrics & Gynecology",
+        "Dr. Rajeev Chawla — Endocrinology"
+      ]
+    },
+    {
+      name: "Holy Family Hospital, Okhla Road, New Delhi",
+      location: "Okhla Road, Jamia Nagar, New Delhi 110025",
+      image: "/holi.png",
+      doctors: [
+        "Dr. Ramesh Babu — Cardiology",
+        "Dr. Sanjay D’Cruz — ENT",
+        "Dr. Rekha Sharma — Pediatrics"
+      ]
+    },
+    {
+      name: "St. Stephen’s Hospital, Tis Hazari, Delhi",
+      location: "St. Stephen’s Hospital Marg, Tis Hazari, New Delhi 110054",
+      image: "/st.png",
+      doctors: [
+        "Dr. Sudhir Kalhan — General Surgery",
+        "Dr. Ritu Saxena — Gynecology",
+        "Dr. Sushil Kumar Jain — Pediatrics"
+      ]
+    },
+    {
+      name: "Pushpawati Singhania Research Institute (PSRI), Delhi",
+      location: "Press Enclave Marg, Sheikh Sarai Phase II, New Delhi 110017",
+      image: "/pri.png",
+      doctors: [
+        "Dr. Peush Sahni — Gastroenterology",
+        "Dr. Anil Agarwal — Urology",
+        "Dr. Ashok Kumar — Nephrology"
+      ]
+    },
+    {
+      name: "Rockland Hospital (now Medeor), Qutub Institutional Area, Delhi",
+      location: "B-33-34, Qutub Institutional Area, New Delhi 110016",
+      image: "/rock.png",
+      doctors: [
+        "Dr. P. K. Mishra — Cardiology",
+        "Dr. S. K. Gupta — General Medicine",
+        "Dr. Meera Luthra — Gynecology"
+      ]
+    },
+    {
+      name: "Max Hospital, Patparganj, Delhi",
+      location: "108A, I.P. Extension, Patparganj, New Delhi 110092",
+      image: "/maxx.png",
+      doctors: [
+        "Dr. Vivek Raj — Gastroenterology",
+        "Dr. Anil Bansal — Cardiology",
+        "Dr. Rakesh Dua — Neurosurgery"
+      ]
     }
   ];
 
@@ -83,37 +307,31 @@ const BestHospitals = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Best Private Hospitals in{' '}
+            Top 30 Private Hospitals in{' '}
             <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
-              Delhi & NCR
+              Delhi NCR
             </span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            World-class healthcare facilities offering advanced medical treatments with international standards
+            Explore the best hospitals with world-class facilities and renowned specialists.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-green-500 mx-auto mt-6 rounded-full"></div>
         </div>
 
         {/* Hospitals Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {hospitals.map((hospital, index) => (
             <div
               key={index}
               className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100"
             >
               {/* Hospital Image */}
-              <div className="h-48 bg-gradient-to-br from-blue-100 to-green-100 flex items-center justify-center relative overflow-hidden">
-                {/* Placeholder for hospital image */}
-                <div className="w-full h-full bg-gradient-to-br from-blue-200 to-green-200 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm0 4a1 1 0 011-1h12a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V8zm6 2a1 1 0 00-1 1v2a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <span className="text-xs text-gray-600 font-medium">Hospital Image</span>
-                  </div>
-                </div>
+              <div className="h-72 w-full bg-gradient-to-br from-blue-100 to-green-100 flex items-center justify-center relative overflow-hidden">
+                <img
+                  src={hospital.image}
+                  alt={hospital.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Hospital Info */}
@@ -127,54 +345,20 @@ const BestHospitals = () => {
                   </svg>
                   {hospital.location}
                 </p>
-                
-                {/* Specialties */}
+
+                {/* Doctors */}
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-gray-700 mb-2">Specialties:</h4>
-                  <div className="flex flex-wrap gap-1">
-                    {hospital.specialties.slice(0, 2).map((specialty, idx) => (
-                      <span
-                        key={idx}
-                        className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded-full font-medium"
-                      >
-                        {specialty}
-                      </span>
+                  <h4 className="text-sm font-semibold text-gray-700 mb-2">Renowned Doctors:</h4>
+                  <ul className="list-disc list-inside text-sm text-gray-600">
+                    {hospital.doctors.map((doctor, idx) => (
+                      <li key={idx}>{doctor}</li>
                     ))}
-                    {hospital.specialties.length > 2 && (
-                      <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full font-medium">
-                        +{hospital.specialties.length - 2} more
-                      </span>
-                    )}
-                  </div>
+                  </ul>
                 </div>
 
-                {/* Contact Button */}
-                <button className="w-full bg-gradient-to-r from-blue-600 to-green-600 text-white py-2 px-4 rounded-lg font-semibold text-sm hover:shadow-lg transform hover:scale-105 transition-all duration-200">
-                  Get Treatment Info
-                </button>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-12">
-          <div className="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto border border-gray-100">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Need Help Choosing the Right Hospital?
-            </h3>
-            <p className="text-gray-600 mb-6">
-              Our medical tourism experts will help you select the best hospital and doctor for your specific medical needs
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-green-600 text-white rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200">
-                Free Consultation
-              </button>
-              <button className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold hover:bg-blue-50 transition-all duration-200">
-                Compare Hospitals
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </section>
