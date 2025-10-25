@@ -34,7 +34,7 @@ const GetInTouch = () => {
                   Call/Whatsapp
                 </div>
                 <div className="text-black font-bold text-sm sm:text-base md:text-lg transition-colors duration-300 group-hover:text-[#79C1BE]">
-                  <a href="tel:+919899239541" className="hover:underline hover:text-[#79C1BE] transition-colors duration-200">+91-9899239541</a> / 
+                  <a href="tel:+917899294918" className="hover:underline hover:text-[#79C1BE] transition-colors duration-200">+91-7899294918</a> / 
                 </div>
               </div>
             </div>
