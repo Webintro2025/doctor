@@ -3,35 +3,33 @@
 // SEO metadata for About page
 export const metadata = {
   alternates: {
-    canonical: "https://apsinstrument.in/about",
+    canonical: "https://doctorhand.in/about",
   },
-  title: "About APS Lab | Leading Medical & Laboratory Equipment Manufacturer in India",
+  title: "About Doctor Hand | Medical Tourism & Healthcare Services",
   description:
-    "Learn about APS Lab, a top manufacturer, supplier, and exporter of medical and laboratory equipment in India. Discover our mission, vision, and commitment to quality in healthcare and research solutions.",
+    "Doctor Hand connects patients with top hospitals and specialist doctors across India. Learn about our mission to provide seamless medical tourism, treatment planning, travel coordination, and patient support.",
   keywords: [
-    "APS Lab",
-    "About APS Lab",
-    "Medical Equipment Manufacturer",
-    "Laboratory Equipment Supplier",
-    "Exporter",
-    "Healthcare Solutions",
-    "Research Equipment",
-    "India",
+    "Doctor Hand",
+    "About Doctor Hand",
+    "Medical Tourism",
+    "Healthcare Services",
+    "Hospitals",
+    "Doctors",
     "Delhi",
-    "Quality Medical Devices",
+    "Gurgaon",
   ],
   openGraph: {
-    title: "About APS Lab | Leading Medical & Laboratory Equipment Manufacturer in India",
+    title: "About Doctor Hand | Medical Tourism & Healthcare Services",
     description:
-      "Learn about APS Lab, a top manufacturer, supplier, and exporter of medical and laboratory equipment in India. Discover our mission, vision, and commitment to quality in healthcare and research solutions.",
-    url: "https://apsinstrument.in/about",
-    siteName: "APS Lab",
+      "Doctor Hand connects patients with top hospitals and specialist doctors across India. Learn about our services, team, and commitment to patient-centred care.",
+    url: "https://doctorhand.in/about",
+    siteName: "Doctor Hand",
     images: [
       {
-        url: "/logo.png",
-        width: 400,
-        height: 200,
-        alt: "APS Lab Logo",
+        url: "/logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Doctor Hand Logo",
       },
     ],
     locale: "en_IN",
@@ -39,14 +37,14 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About APS Lab | Leading Medical & Laboratory Equipment Manufacturer in India",
+    title: "About Doctor Hand | Medical Tourism & Healthcare Services",
     description:
-      "Learn about APS Lab, a top manufacturer, supplier, and exporter of medical and laboratory equipment in India.",
-    site: "@apslab",
+      "Learn about Doctor Hand — our mission, services, and how we help international and domestic patients access top healthcare in India.",
+    site: "@doctorhand",
     images: [
       {
-        url: "/logo.png",
-        alt: "APS Lab Logo",
+        url: "/logo.jpeg",
+        alt: "Doctor Hand Logo",
       },
     ],
   },

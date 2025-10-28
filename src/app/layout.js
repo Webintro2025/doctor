@@ -15,41 +15,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "APS Lab | Medical & Laboratory Equipment Manufacturer, Supplier, Exporter",
-  description: "APS Lab is a leading manufacturer, supplier, and exporter of medical and laboratory equipment in India. We provide high-quality products including deep freezers, autoclaves, hospital furniture, OT lights, and more. Serving Delhi, Lucknow, Kolkata, Hyderabad, Chennai, and all major cities.",
+  title: "Doctor Hand | Medical Tourism & Healthcare Services",
+  description: "Doctor Hand connects patients with top hospitals and specialist doctors across India (Delhi NCR, Gurgaon, Noida, Faridabad, Greater Noida). We provide medical tourism coordination, treatment planning, travel & stay assistance, and personalised patient support.",
   keywords: [
-    "APS Lab",
-    "Medical Equipment",
-    "Laboratory Equipment",
-    "Manufacturer",
-    "Supplier",
-    "Exporter",
-    "Deep Freezer",
-    "Autoclave",
-    "Hospital Furniture",
-    "OT Light",
-    "India",
+    "Doctor Hand",
+    "Medical Tourism",
+    "Healthcare",
+    "Hospitals",
+    "Doctors",
     "Delhi",
-    "Lucknow",
-    "Kolkata",
-    "Hyderabad",
-    "Chennai"
+    "Gurgaon",
+    "Noida",
+    "Medical Tourism India",
+    "International Patients"
   ],
-    verification: {
-    google: "Eij2LGHNtOVNDiwbT0avpsQ1gG5V1nDBmiXQiQb_qZs", // ← Yeh line important hai
-  },  
-  authors: [{ name: "APS Lab", url: "https://apslab.in" }],
+
+  authors: [{ name: "Doctor Hand", url: "https://doctorhand.in" }],
   openGraph: {
-    title: "APS Lab | Medical & Laboratory Equipment Manufacturer, Supplier, Exporter",
-    description: "APS Lab is a leading manufacturer, supplier, and exporter of medical and laboratory equipment in India. We provide high-quality products including deep freezers, autoclaves, hospital furniture, OT lights, and more.",
-    url: "https://apsinstrument.in/",
-    siteName: "APS Lab",
+    title: "Doctor Hand | Medical Tourism & Healthcare Services",
+    description: "Find top hospitals and specialists in India, get personalised treatment plans, and full travel coordination for international patients.",
+    url: "https://doctorhand.com/",
+    siteName: "Doctor Hand",
     images: [
       {
-        url: "/logo.png",
-        width: 400,
-        height: 200,
-        alt: "APS Lab Logo"
+        url: "/logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Doctor Hand Logo"
       }
     ],
     locale: "en_IN",
@@ -57,13 +49,13 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "APS Lab | Medical & Laboratory Equipment Manufacturer, Supplier, Exporter",
-    description: "APS Lab is a leading manufacturer, supplier, and exporter of medical and laboratory equipment in India.",
-    site: "@apslab",
+    title: "Doctor Hand | Medical Tourism & Healthcare Services",
+    description: "Medical tourism coordination, top hospitals & specialist doctors across India.",
+    site: "@doctorhand",
     images: [
       {
-        url: "/logo.png",
-        alt: "APS Lab Logo"
+        url: "/logo.jpeg",
+        alt: "Doctor Hand Logo"
       }
     ]
   }

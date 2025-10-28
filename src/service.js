@@ -176,7 +176,7 @@ const serviceData = {
       "Tonsillectomy & Adenoidectomy",
       "Voice & Throat Surgery"
     ],
-    image: "/ENT (Ear, Nose and Throat).jpg"
+    image: "/ear.jpg"
   },
   pediatrics: {
     title: "Pediatrics and Pediatric Surgery",

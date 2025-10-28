@@ -18,7 +18,7 @@ const galleryImages = [
   { src: '/Cosmetic and Plastic Surgery.jpg', title: 'Cosmetic & Plastic Surgery' },
   { src: '/General and Minimally Invasive Surgery.jpg', title: 'General & Minimally Invasive Surgery' },
   { src: '/Ophthalmology (Eye Care).jpg', title: 'Ophthalmology (Eye Care)' },
-  { src: '/ENT (Ear, Nose and Throat).jpg', title: 'ENT (Ear, Nose & Throat)' },
+  { src: '/ear.jpg', title: 'ENT (Ear, Nose & Throat)' },
   { src: '/Pediatrics and Pediatric Surgery.jpg', title: 'Pediatrics & Pediatric Surgery' },
   { src: '/Alternative and Wellness.jpg', title: 'Alternative & Wellness' }
 ];

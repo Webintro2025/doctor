@@ -3,33 +3,31 @@
 // SEO metadata for Contact page
 export const metadata = {
   alternates: {
-    canonical: "https://apsinstrument.in/contact",
+    canonical: "https://doctorhand.in/contact",
   },
-  title: "Contact APS Lab | Medical & Laboratory Equipment Manufacturer in India",
-  description: "Contact APS Lab for inquiries, support, and quotes on medical and laboratory equipment. Reach our team for fast assistance and expert advice.",
+  title: "Contact Doctor Hand | Medical Tourism & Patient Support",
+  description: "Get in touch with Doctor Hand for treatment coordination, hospital & doctor inquiries, travel assistance, and personalised medical tourism support.",
   keywords: [
-    "APS Lab",
+    "Doctor Hand",
     "Contact",
-    "Medical Equipment",
-    "Laboratory Equipment",
-    "Support",
-    "Quote",
-    "Supplier",
-    "Exporter",
-    "India",
-    "Delhi"
+    "Medical Tourism",
+    "Patient Support",
+    "Hospitals",
+    "Doctors",
+    "Delhi",
+    "Gurgaon"
   ],
   openGraph: {
-    title: "Contact APS Lab | Medical & Laboratory Equipment Manufacturer in India",
-    description: "Contact APS Lab for inquiries, support, and quotes on medical and laboratory equipment. Reach our team for fast assistance and expert advice.",
-    url: "https://apsinstrument.in/contact",
-    siteName: "APS Lab",
+    title: "Contact Doctor Hand | Medical Tourism & Patient Support",
+    description: "Get in touch with Doctor Hand for treatment coordination, hospital & doctor inquiries, travel assistance, and personalised medical tourism support.",
+    url: "https://doctorhand.in/contact",
+    siteName: "Doctor Hand",
     images: [
       {
-        url: "/logo.png",
-        width: 400,
-        height: 200,
-        alt: "APS Lab Logo"
+        url: "/logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Doctor Hand Logo"
       }
     ],
     locale: "en_IN",
@@ -37,13 +35,13 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact APS Lab | Medical & Laboratory Equipment Manufacturer in India",
-    description: "Contact APS Lab for inquiries, support, and quotes on medical and laboratory equipment. Reach our team for fast assistance and expert advice.",
-    site: "@apslab",
+    title: "Contact Doctor Hand | Medical Tourism & Patient Support",
+    description: "Contact Doctor Hand for treatment coordination, hospital & doctor inquiries, travel assistance, and personalised support for international and domestic patients.",
+    site: "@doctorhand",
     images: [
       {
-        url: "/logo.png",
-        alt: "APS Lab Logo"
+        url: "/logo.jpeg",
+        alt: "Doctor Hand Logo"
       }
     ]
   }
