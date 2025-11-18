@@ -1,5 +1,5 @@
-import { locations } from '../../../marketplace';
-import { productDropdownList } from '../../../data/productList';
+import { locations } from '@/marketplace';
+import { productDropdownList } from '@/data/productList';
 
 const SITE_URL = 'https://doctorhand.in';
 
