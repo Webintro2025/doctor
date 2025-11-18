@@ -304,6 +304,8 @@ mdtahir000@gmail.com           </span>
                       { name: 'ENT (Ear, Nose & Throat)', slug: 'ent-ear-nose-throat' },
                       { name: 'Pediatrics & Pediatric Surgery', slug: 'pediatrics-pediatric-surgery' },
                       { name: 'Alternative & Wellness', slug: 'alternative-wellness' },
+                      {name :'Hepatology', slug: 'hepatology'},
+                      {name: 'Nephrology', slug: 'nephrology'}
                     ].map((treatment, idx) => (
                       <li
                         key={treatment.slug}

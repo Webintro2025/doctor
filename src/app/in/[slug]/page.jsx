@@ -1,74 +1,39 @@
+import React from 'react';
 import { locations } from '../../../marketplace';
 import ContactForm from '@/components/ContactForm';
-import React from 'react';
 
-// Dynamic SEO metadata for each location page
+// Clean Doctor Hand location page — single, valid file
 export function generateMetadata({ params }) {
-  const { slug } = params;
-    const locationName =
-      locations.find(
-        (loc) =>
-          loc.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase()
-      ) || slug.replace(/-/g, ' ');
-    const title = `Blood Bank Refrigerator Manufacturers in ${locationName} | APS Lab Instruments`;
-    const description = `Need Blood Bank Refrigerator Manufacturers in ${locationName} Call APS Lab Instruments, Bio Safety Cabinet Manufacturers in ${locationName}, Autoclave Manufacturers in India.`;
-    const keywords = [
-      `Blood Bank Refrigerator Manufacturers in ${locationName}`,
-      `Lab Equipment Supplier in ${locationName}`,
-      `Bio-Safety Cabinet Manufacturers in ${locationName}`,
-      `Autoclave Manufacturers in ${locationName}`,
-      `Medical Equipment Exporter in ${locationName}`,
-      `Hospital Equipment Supplier in ${locationName}`,
-      `Blood Bank Refrigerator Dealer in ${locationName}`,
-      `Best Lab Instruments in ${locationName}`
-    ].join(', ');
+  const slug = params?.slug || 'location';
+  const locationName =
+    (Array.isArray(locations)
+      ? locations.find((loc) => loc.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase())
+      : null) || slug.replace(/-/g, ' ');
 
-    return {
+  const title = `Top Hospitals & Specialist Doctors in ${locationName} — Doctor Hand`;
+  const description = `Find top hospitals and specialist care in ${locationName}. Doctor Hand helps with hospital & doctor selection, appointments, travel and full patient coordination.`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `https://doctorhand.in/location/${slug}` },
+    openGraph: {
       title,
       description,
-      keywords,
-      alternates: {
-        canonical: `https://apsinstrument.in/location/${slug}`,
-      },
-      openGraph: {
-        title,
-        description,
-        url: `https://apsinstrument.in/location/${slug}`,
-        siteName: 'APS Lab',
-        images: [
-          {
-            url: '/logo.png',
-            width: 400,
-            height: 200,
-            alt: 'APS Lab Logo',
-          },
-        ],
-        locale: 'en_IN',
-        type: 'website',
-      },
-      twitter: {
-        card: 'summary_large_image',
-        title,
-        description,
-        site: '@apslab',
-        images: [
-          {
-            url: '/logo.png',
-            alt: 'APS Lab Logo',
-          },
-        ],
-      },
-    };
+      url: `https://doctorhand.in/location/${slug}`,
+      siteName: 'Doctor Hand',
+      images: [{ url: '/logo.jpeg', width: 1200, height: 630, alt: 'Doctor Hand Logo' }],
+    },
   };
-
+}
 
 export default function LocationPage({ params }) {
-  const { slug } = params;
+  const slug = params?.slug || 'your-area';
   const locationName =
-    locations.find(
-      (loc) =>
-        loc.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase()
-    ) || slug.replace(/-/g, ' ');
+    (Array.isArray(locations)
+      ? locations.find((loc) => loc.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase())
+      : null) || slug.replace(/-/g, ' ');
+
   return (
     <main className="w-full ">
      

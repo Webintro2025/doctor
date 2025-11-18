@@ -18,7 +18,7 @@ const images = [
   { src: '/Cosmetic and Plastic Surgery.jpg', title: 'Cosmetic and Plastic Surgery' },
   { src: '/General and Minimally Invasive Surgery.jpg', title: 'General and Minimally Invasive Surgery' },
   { src: '/Ophthalmology (Eye Care).jpg', title: 'Ophthalmology (Eye Care)' },
-  { src: '/ENT (Ear, Nose and Throat).jpg', title: 'ENT (Ear, Nose and Throat)' },
+
   { src: '/Pediatrics and Pediatric Surgery.jpg', title: 'Pediatrics and Pediatric Surgery' },
   { src: '/Alternative and Wellness.jpg', title: 'Alternative and Wellness' }
 ];

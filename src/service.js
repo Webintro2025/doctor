@@ -198,7 +198,30 @@ const serviceData = {
       "Spa & Wellness Programs"
     ],
     image: "/Alternative and Wellness.jpg"
-  }
+  },
+  nephrology: {
+  title: "Nephrology",
+  services: [
+    "Chronic Kidney Disease (CKD) Management",
+    "Dialysis (Hemodialysis & Peritoneal Dialysis)",
+    "Kidney Transplant Evaluation & Surgery",
+    "Hypertension & Electrolyte Disorder Treatment",
+    "Kidney Stone Management (Laser, ESWL, PCNL)"
+  ],
+  image: "/Nephrology.png"
+},
+hepatology: {
+  title: "Hepatology",
+  services: [
+    "Liver Cirrhosis & Fatty Liver Disease Management",
+    "Hepatitis (A, B, C & Autoimmune Hepatitis) Treatment",
+    "Liver Transplant Evaluation & Surgery",
+    "Alcohol-Related Liver Disease Treatment",
+    "Liver Cancer Diagnosis & Treatment"
+  ],
+  image: "/Hepatology.png"
+}
+
 };
 
 export default serviceData;
