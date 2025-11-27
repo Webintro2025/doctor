@@ -89,9 +89,9 @@ const Footer = () => {
 
     <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 text-center text-black text-xs md:text-sm font-serif">
       © 2025 All Rights Reserved. Doctors Hand. Developed & Managed By With
-      <span className="text-[#76B260]">❤</span>
-      <a href="https://webintro.in" target="_blank" className="text-[#76B260] hover:underline" rel="noopener noreferrer">Webintro.in</a>,
-      <a href="https://webintro.in/delhi/" target="_blank" className="text-[#76B260] hover:underline" rel="noopener noreferrer">Google Promotion Services</a>
+      <span className="text-red-800">❤</span>
+      <a href="https://webintro.in" target="_blank" className="text-blue-900 hover:underline" rel="noopener noreferrer">Webintro.in</a>,
+      <a href="https://webintro.in/delhi/" target="_blank" className="text-blue-900 hover:underline" rel="noopener noreferrer">Google Promotion Services</a>
     </div>
     
   </footer>

@@ -29,12 +29,15 @@ export const metadata = {
     "Medical Tourism India",
     "International Patients"
   ],
+verification: {
 
-  authors: [{ name: "Doctor Hand", url: "https://doctorhand.in" }],
+    google: "1Ok5Ngpb9KmXymIEv1a8FbsD4ZPwdtHCxyM-IiDDUZQ",
+  },
+  authors: [{ name: "Doctor Hand", url: "https://doctorshand.com/" }],
   openGraph: {
     title: "Doctor Hand | Medical Tourism & Healthcare Services",
     description: "Find top hospitals and specialists in India, get personalised treatment plans, and full travel coordination for international patients.",
-    url: "https://doctorhand.com/",
+    url: "https://doctorshand.com/",
     siteName: "Doctor Hand",
     images: [
       {
