@@ -48,8 +48,8 @@ function slugToServiceKey(slug) {
 	return slugMap[slug] || slug;
 }
 
-export default function ServicePage({ params }) {
-	const { slug } = params;
+export default async function ServicePage({ params }) {
+	const { slug } = await  params;
 	const serviceKey = slugToServiceKey(slug);
 	
 	// Find the service object by serviceKey

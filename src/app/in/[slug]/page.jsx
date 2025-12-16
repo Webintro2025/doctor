@@ -49,8 +49,8 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function LocationPage({ params }) {
-  const slug = params?.slug || 'your-area';
+export default async function LocationPage({ params }) {
+  const slug = await  params?.slug || 'your-area';
   const locationName =
     (Array.isArray(locations)
       ? locations.find((loc) => loc.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase())
