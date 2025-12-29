@@ -16,7 +16,7 @@ export async function GET() {
 
 	// Location pages: /in/{slug} (matches dynamic route)
 	const locationPages = Array.isArray(locations)
-		? locations.map((loc) => `/in/${String(loc).toLowerCase().replace(/\s+/g, '-')}`)
+		? locations.map((loc) => `/kidney-treatment-services-in/${String(loc).toLowerCase().replace(/\s+/g, '-')}`)
 		: [];
 
 	const allPages = [...staticPages, ...productPages, ...locationPages];
